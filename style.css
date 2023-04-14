@@ -1,0 +1,47 @@
+.h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: rgb(177, 149, 202);
+    margin: auto;
+}
+.h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: rgb(177, 149, 202);
+    margin: auto;
+    padding: 50px;
+    padding-top: 0%;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.list{
+    text-align: center;
+    color: black;
+    margin-left: 50px;
+    margin-top: 0%;
+}
+.p{
+    display: block;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.listitem{
+    margin-left: 350px;
+    text-align: left;
+}
+.button{
+    margin-left: 90%;
+    margin-top: 0%;
+    font-size:150%;
+}
+.text{
+    font-size: large;
+}
