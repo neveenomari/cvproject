@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(244, 250, 255);
+}
+
 .h1{
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
@@ -13,6 +17,7 @@
     margin: auto;
     padding: 50px;
     padding-top: 0%;
+    font-size:medium
 }
 .image{
     width: 200px;
@@ -22,7 +27,7 @@
 .list{
     text-align: center;
     color: black;
-    margin-left: 50px;
+    margin-left: 0%;
     margin-top: 0%;
 }
 .p{
@@ -37,11 +42,48 @@
     margin-left: 350px;
     text-align: left;
 }
-.button{
-    margin-left: 90%;
-    margin-top: 0%;
-    font-size:150%;
-}
 .text{
-    font-size: large;
+    font-size:x-large;
+    text-align: left;
+}
+.li{
+    float: right;
+}
+/*buttons style*/
+.button{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgb(114, 80, 145);
+}
+
+li a{
+    display: block;
+    padding: 14px 10px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration:none;
+}
+li a:hover{
+    background-color: rgb(182, 179, 179);
+}
+li a:active{
+    background-color: rgb(177, 149, 202);
+}
+.active{
+    background-color: rgb(177, 149, 202);
+}
+
+/*grid style*/
+.gridmain{
+    display: grid;
+    grid: 50px 100px /auto auto;
+    width: 50%;
+    padding: auto;
+}
+.griditem{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
 }
